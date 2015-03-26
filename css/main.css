@@ -115,9 +115,9 @@ header {
     margin-top: 30px;
     padding-bottom: 60px;
 }
-.my_photo img {
-    border: 7px solid #fff;
-    margin-top: -105px;
+.info img {
+    margin-top: -100px;
+      border: 7px solid #fff;
 }
 .my_name {
     display: inline-block;
@@ -140,6 +140,9 @@ header {
     color: #FFF;
 }
 
+.contacts_btn {
+  margin-top: 25px;
+}
 /* Skills */
 
 .skill_block {
@@ -185,7 +188,7 @@ header {
 
 
 footer {
-      background-color: #282828;
+  background-color: #282828;
   height: 40px;
 }
 footer a {

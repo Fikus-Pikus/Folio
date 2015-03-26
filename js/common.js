@@ -42,11 +42,6 @@ $(document).ready(function() {
 			offset: -90
 		});
 	});
-	$("a#").click(function() {
-		$.scrollTo($("."), 800, {
-			offset: -90
-		});
-	});
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
