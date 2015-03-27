@@ -1,0 +1,4 @@
+<i class="fa fa-scissors"></i> ножницы
+<i class="fa fa-html5"></i>
+<i class="fa fa-css3"></i>
+<i class="fa fa-quote-right"></i>

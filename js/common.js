@@ -42,6 +42,11 @@ $(document).ready(function() {
 			offset: -90
 		});
 	});
+	$("a#contacts").click(function() {
+		$.scrollTo($(".contacts"), 800, {
+			offset: -90
+		});
+	});
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/

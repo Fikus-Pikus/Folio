@@ -40,6 +40,7 @@ button {
 }
 header {
 	padding: 0;
+  background-color: #43484C;
 }
 .logo {
 	padding-top: 40px;
@@ -86,15 +87,9 @@ header {
 	padding: 13px 0 0 10px;
 }
 
-.after_header .block {
-	width: 70%;
-	margin: 30px auto;
-	text-align: center;
-	background: url(../img/text_bg.png)no-repeat;
-	background-position: top center;
-	padding-top: 80px;
-	font-family: Cambria;
-	font-style: italic;
+.after_header .psd_to_html {
+	background-image: url(../img/psd_to_html.png) no-repeat center;
+  
 }
 .portfolio .works {
 	margin-top: 20px;
