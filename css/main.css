@@ -157,9 +157,8 @@ header a {
     height: auto;
 }
 .portfolio a {
-    display: block;
-    margin: 0px 70px 70px 0px;
-    
+  display: inline-block;
+  margin-bottom: 40px;
 }
 
 /* конец портфолио */
