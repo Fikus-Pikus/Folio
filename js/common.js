@@ -79,16 +79,27 @@ $(document).ready(function() {
 	});
 
 	//Кнопка "Наверх"
-	//Документация:
-	//http://api.jquery.com/scrolltop/
-	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
+	//http://admin-kompa.ru/dlya_sajta/knopka_dlja_sajta_vverh.html
+	$(function() {
+	 $.fn.scrollToTop = function() {
+	  $('#Go_Top').hide().removeAttr("href");
+	  if ($(window).scrollTop() >= "250") $('#Go_Top').fadeIn("slow")
+	  var scrollDiv = $('#Go_Top');
+	  $(window).scroll(function() {
+	   if ($(window).scrollTop() <= "250") $(scrollDiv).fadeOut("slow")
+	   else $(scrollDiv).fadeIn("slow")
+	  });
+	  $('#Go_Top').click(function() {
+	   $("html, body").animate({scrollTop: 0}, "slow")
+	  })
+	 }
+	});
+	 
+	$(function() {
+	 $("#Go_Top").scrollToTop();
 	});
 	
+
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
 	$("form").submit(function() {
