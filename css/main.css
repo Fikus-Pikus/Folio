@@ -55,12 +55,6 @@ header a {
 	font-size: 36px;
 	font-family: "BebasRegular";
 }
-.logo_descript {
-	font-family: Arial serif;
-	font-size: 13px;
-	padding-left: 9px;
-	text-transform: capitalize;
-}
 .main_mnu {
 	float: right;
 }
@@ -166,7 +160,7 @@ header a {
 .info {
     background-color: #D45E5E;
     color: #FFF;
-    margin-top: 30px;
+    margin-top: 70px;
     padding-bottom: 60px;
 }
 .info img {
@@ -193,17 +187,20 @@ header a {
 .my_name a {
     color: #FFF;
 }
-
+/* контакты */
 .contacts {
-  margin-top: 25px;
+
 }
 .contacts i {
+  font-size: 40px;
   color: #FFF;
-  font-size: 34px;
+  margin-right: 30px;
 }
-.soc_btn a {
-  margin-left: 20px;
+.phone {
+  font-size: 30px;
+  padding: 0 0 3px 15px;
 }
+
 /* Skills */
 
 .skill_block {
@@ -219,9 +216,9 @@ header a {
   font-size: 24px;
 }
 .skill_descr {
-   width: 50px;
-     display: inline-block;
-     margin-right: 20px;
+  width: 140px;
+  display: inline-block;
+  margin-right: 20px;
 }
 .bgc_skill {
   background-color: #E27878;
