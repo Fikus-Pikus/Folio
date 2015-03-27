@@ -1,5 +1,14 @@
 $(document).ready(function() {
-	$(".main_mnu_btn").click(function() {
+	$(".item").magnificPopup({ //всплывающее окно для картинок
+		type : 'image', // 'image' берётся в кавычки, так как это строка
+		gallery : { // инициализация галереи
+			enabled : true
+		},
+		removalDelay: 300, //анимация с оффсайта(http://dimsemenov.com/plugins/magnific-popup/documentation.html#animation)
+		mainClass: 'mfp-fade'
+	});
+
+	$(".main_mnu_btn").click(function() { //кнопка раскрытия меня на малых экранах
 			$(this).next().slideToggle();
 		});
 
