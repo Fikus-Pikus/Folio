@@ -47,6 +47,10 @@
 	.portfolio {
 		text-align: center;
 	}
+	.my_name {
+		margin-left: 0;
+		padding-left: 0;
+	}
 }
 
 /* Custom, iPhone Retina */

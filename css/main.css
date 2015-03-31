@@ -151,7 +151,7 @@ header a {
     height: auto;
 }
 .portfolio a {
-  display: inline-block;
+  display: block;
   margin-bottom: 40px;
 }
 
